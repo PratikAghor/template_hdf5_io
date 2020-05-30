@@ -4,7 +4,6 @@
 #include "math.h"
 #include "headerFiles/matrix2d.h"
 #include "headerFiles/vector.h"
-#include "/usr/include/hdf5/serial/H5Cpp.h" // use locate H5Cpp.h to find path
 #include "functions/write_matrix2d_hdf5.cpp"
 
 using namespace std;
