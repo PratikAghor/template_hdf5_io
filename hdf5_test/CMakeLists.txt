@@ -20,3 +20,9 @@ target_link_libraries(write_hdf5 ${PROJECT_LIBS})
 
 add_executable(read_hdf5 read_hdf5.cpp)
 target_link_libraries(read_hdf5 ${PROJECT_LIBS})
+
+add_executable(write_append_vect_hdf5 write_append_vect_hdf5.cpp)
+target_link_libraries(write_append_vect_hdf5 ${PROJECT_LIBS})
+
+add_executable(read_append_vect_hdf5 read_append_vect_hdf5.cpp)
+target_link_libraries(read_append_vect_hdf5 ${PROJECT_LIBS})

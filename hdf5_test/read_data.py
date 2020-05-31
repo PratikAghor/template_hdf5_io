@@ -14,3 +14,10 @@ u0 = np.array(ut)
 
 print("u0 = \n", u0)
 #######################################
+filename2 = "rI"
+hf = h5py.File('data/' + filename2 + '.h5', 'r')
+rI = hf.get('r')
+rI = np.array(rI)
+
+print("rI = \n", rI)
+#######################################
